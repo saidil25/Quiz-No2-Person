@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Program : " + setprogram);
         System.out.println("Tahun : " + setyear);
         System.out.println("UKT : " + setfee);
-        System.out.println(murid);
+        System.out.println(murid+" "+orang);
         System.out.println("");
 
 //        Staff
@@ -26,6 +26,6 @@ public class Main {
         double setpay = staff.getPay();
         System.out.println("Sekolah : " + setschool);
         System.out.println("Biaya : " + setpay);
-        System.out.println(staff);
+        System.out.println(staff+" "+murid+" "+orang);
     }
 }
